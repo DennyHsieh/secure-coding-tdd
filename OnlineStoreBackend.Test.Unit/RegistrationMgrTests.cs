@@ -29,6 +29,25 @@ namespace OnlineStoreBackend.Test.Unit
             Assert.True(isValid);
         }
 
+        // Dependence Breaking
+        [TestCase("usr")]
+        [TestCase("user123")]
+        [TestCase("chengwei45")]
+        [TestCase("123test456")]
+        public void IsValidUsername_LegalLengthCharsButNotExistingUser_ReturnsTrue(string username)
+        {
+            // Arrange
+            IPersistenceMgr fakePersistenceMgr = Substitute.For<IPersistenceMgr>();
+            RegistrationMgr regMgr = new RegistrationMgr(fakePersistenceMgr);
+            fakePersistenceMgr.UsernameExists(username).Returns(true);
+
+            // Act
+            bool isValid = regMgr.IsValidUsername(username);
+
+            // Assert
+            Assert.False(isValid);
+        }
+
         [TestCase("u")]
         [TestCase("us")]
         [TestCase("user5678901")]

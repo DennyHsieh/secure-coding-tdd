@@ -9,9 +9,10 @@ namespace OnlineStoreBackend
 {
     public class RegistrationMgr
     {
+        IPersistenceMgr persistenceMgr;
         public RegistrationMgr(IPersistenceMgr persistenceMgr)
         {
-
+            this.persistenceMgr = persistenceMgr;
         }
 
         public RegistrationMgr()
@@ -32,6 +33,13 @@ namespace OnlineStoreBackend
             {
                 return false;
             }
+
+            // Username must not already exist
+            if (persistenceMgr.UsernameExists(username))
+            {
+                return false;
+            }
+
             return true;
         }
     }
