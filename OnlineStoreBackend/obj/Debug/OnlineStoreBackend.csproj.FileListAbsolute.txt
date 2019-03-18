@@ -1,0 +1,5 @@
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend\bin\Debug\OnlineStoreBackend.dll
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend\bin\Debug\OnlineStoreBackend.pdb
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend\obj\Debug\OnlineStoreBackend.csprojResolveAssemblyReference.cache
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend\obj\Debug\OnlineStoreBackend.dll
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend\obj\Debug\OnlineStoreBackend.pdb

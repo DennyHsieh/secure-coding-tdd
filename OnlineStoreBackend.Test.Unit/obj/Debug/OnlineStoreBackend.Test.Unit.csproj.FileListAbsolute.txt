@@ -1,0 +1,9 @@
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend.Test.Unit\obj\Debug\OnlineStoreBackend.Test.Unit.csprojResolveAssemblyReference.cache
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend.Test.Unit\bin\Debug\OnlineStoreBackend.Test.Unit.dll
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend.Test.Unit\bin\Debug\OnlineStoreBackend.Test.Unit.pdb
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend.Test.Unit\bin\Debug\nunit.framework.dll
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend.Test.Unit\bin\Debug\OnlineStoreBackend.dll
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend.Test.Unit\bin\Debug\OnlineStoreBackend.pdb
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend.Test.Unit\bin\Debug\nunit.framework.xml
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend.Test.Unit\obj\Debug\OnlineStoreBackend.Test.Unit.dll
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend.Test.Unit\obj\Debug\OnlineStoreBackend.Test.Unit.pdb
