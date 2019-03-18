@@ -7,3 +7,9 @@ c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineSt
 c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend.Test.Unit\bin\Debug\nunit.framework.xml
 c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend.Test.Unit\obj\Debug\OnlineStoreBackend.Test.Unit.dll
 c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend.Test.Unit\obj\Debug\OnlineStoreBackend.Test.Unit.pdb
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend.Test.Unit\bin\Debug\Castle.Core.dll
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend.Test.Unit\bin\Debug\NSubstitute.dll
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend.Test.Unit\bin\Debug\System.Threading.Tasks.Extensions.dll
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend.Test.Unit\bin\Debug\Castle.Core.xml
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend.Test.Unit\bin\Debug\NSubstitute.xml
+c:\users\student\documents\visual studio 2015\Projects\UnitTestWorkshop\OnlineStoreBackend.Test.Unit\bin\Debug\System.Threading.Tasks.Extensions.xml

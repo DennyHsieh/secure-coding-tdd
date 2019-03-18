@@ -9,7 +9,15 @@ namespace OnlineStoreBackend
 {
     public class RegistrationMgr
     {
-       
+        public RegistrationMgr(IPersistenceMgr persistenceMgr)
+        {
+
+        }
+
+        public RegistrationMgr()
+        {
+
+        }
         public bool IsValidUsername(string username)
         {
             // Length must between [3, 10]

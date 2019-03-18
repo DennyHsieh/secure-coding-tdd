@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NSubstitute;
 
 namespace OnlineStoreBackend.Test.Unit
 {
@@ -14,10 +15,12 @@ namespace OnlineStoreBackend.Test.Unit
         [TestCase("user123")]
         [TestCase("chengwei45")]
         [TestCase("123test456")]
-        public void IsValidUsername_ValidUsername_ReturnsTrue(string username)
+        public void IsValidUsername_LegalLengthCharsAndNotExistingUser_ReturnsTrue(string username)
         {
             // Arrange
-            RegistrationMgr regMgr = new RegistrationMgr();
+            IPersistenceMgr fakePersistenceMgr = Substitute.For<IPersistenceMgr>();
+            RegistrationMgr regMgr = new RegistrationMgr(fakePersistenceMgr);
+            fakePersistenceMgr.UsernameExists(username).Returns(false);
 
             // Act
             bool isValid = regMgr.IsValidUsername(username);
@@ -29,7 +32,7 @@ namespace OnlineStoreBackend.Test.Unit
         [TestCase("u")]
         [TestCase("us")]
         [TestCase("user5678901")]
-        public void IsValidUsername_InvalidUsernameLength_ReturnsFalse(string username)
+        public void IsValidUsername_IllegalUsernameLength_ReturnsFalse(string username)
         {
             // Arrange
             RegistrationMgr regMgr = new RegistrationMgr();
